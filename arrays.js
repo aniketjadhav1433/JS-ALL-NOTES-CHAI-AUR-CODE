@@ -115,7 +115,7 @@ console.log('includes',normal.includes("jai shree ram"));   // this will check w
 console.log(normal);
 console.log('index of ',normal.indexOf("jai shree ram"));  // this will show the index of that value 
 
-let newNormal = normal.join()          // this will convert all the arrays in the form of string
+let newNormal = normal.join("")          // this will convert all the arrays in the form of string
 console.log('new normal = ',newNormal);
 
 let first = {
