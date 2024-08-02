@@ -1,0 +1,1 @@
+# this are all notes of js from chai aur code yt channel
