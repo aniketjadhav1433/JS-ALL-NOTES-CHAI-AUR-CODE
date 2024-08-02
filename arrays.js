@@ -48,7 +48,7 @@ mixed.forEach((item)=>{
 })
 
 
-// concatination and sorting of arrays                    // there is also a reverse method which reverses all the values of arrays
+// concatination and sorting of arrays                   
 
 let arr1 = [4,4,4,4,333,55]
 let arr2 = [99,94,33,54]
@@ -93,6 +93,8 @@ console.log('non  slice',splicedNon);
 
 let normal = [34,43,43,"wow"]
 console.log('normal',normal);
+console.log('reverse normal ',normal.reverse());   // reverse method reverses all the values of arrays
+
 
 normal.push(33,"shree ram")        // this will add the values in the array at the end
 console.log('push array',normal);
