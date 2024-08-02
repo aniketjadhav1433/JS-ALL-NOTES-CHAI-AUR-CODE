@@ -1,0 +1,31 @@
+ *{ 
+Margin:0;
+Padding:0;
+Box-sizing: border-box;
+}
+
+html,body{
+Width:100%;
+Height:100%;
+}
+
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-color: bisque;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.clock{
+    background-color: orange;
+    height: 50px;
+    width: 200px ;
+    margin-top: 30px;
+    font-size: 2rem;
+    text-align: center;
+}

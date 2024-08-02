@@ -1,0 +1,82 @@
+ *{ 
+Margin:0;
+Padding:0;
+Box-sizing: border-box;
+}
+
+html,body{
+Width:100%;
+Height:100%;
+}
+
+.main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+h2{
+    text-transform: capitalize;
+    font-size: 2rem;
+}
+
+.buttons{
+   height: 300px;
+   width: 500px;
+   border: 2px solid red;
+   display: flex;
+   justify-content: center;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+   padding-top: 5px;
+}
+#orange{
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    border: 2px solid black;
+
+}
+
+#yellow{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+
+#lightcoral{
+    height: 100px;
+    width: 100px;
+    background-color: lightcoral;
+    border: 2px solid black;
+
+}
+
+#red{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border: 2px solid black;
+
+}
+
+#pink{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid black;
+
+}
+
+button{
+    height: 50px;
+    width: 100px;
+    font-size: 2rem;
+    text-transform: capitalize;
+    border-radius: 5px;
+}

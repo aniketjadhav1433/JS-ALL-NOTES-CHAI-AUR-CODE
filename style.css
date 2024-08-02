@@ -1,0 +1,48 @@
+ *{ 
+Margin:0;
+Padding:0;
+Box-sizing: border-box;
+}
+
+html,body{
+Width:100%;
+Height:100%;
+}
+
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+}
+
+.heading h1{
+    font-size: 3rem;
+    text-transform: capitalize;
+}
+
+.heading p{
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+.day{
+    font-size: 2rem;
+    margin-top: 29px;
+}
+
+.day:last-child{
+
+    background-image: linear-gradient(orange, green );
+    color: transparent;
+    background-clip: text;
+    
+}
+
+li{
+   margin-left: 29px;
+}
+
+.wow{
+   color: red;
+}
