@@ -2,7 +2,6 @@ let images = document.querySelector(".images")
 let flower = document.querySelector(".image2")
 let google = document.querySelector(".google")
 
-
 // images.addEventListener("click", (e)=>{
 //     console.log('images clicked',);
 // },false)     // the third parameter false is deafult
@@ -29,11 +28,22 @@ images.addEventListener("click", (e)=>{
 
 flower.addEventListener("click",(e)=>{    
     console.log('flower clicked',);
-    e.stopPropagation()            // by doing this now images clicked will not appear
+    // e.stopPropagation()            // by doing this now images clicked will not appear
 })
 
 google.addEventListener("click",(e)=>{
     console.log('google clicked',);
-    e.stopPropagation()
+    // e.stopPropagation()
     e.preventDefault()          // this prevents the default behaviour of element , now this will not take us to the google website
 })
+
+
+ images.addEventListener("click", (e)=>{ 
+    console.log('e. tag name',e.target.tagName);  // this will give the name of the tag we clicked
+
+    if(e.target.tagName === "IMG"){
+        let remove = e.target.parentNode        // if we dont use if else then when we will click to li all the images will removed bcz the parent of li is ul
+        remove.remove()                         
+    }
+})                                          
+     
