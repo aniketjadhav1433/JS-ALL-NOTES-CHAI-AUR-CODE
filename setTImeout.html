@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>  
+    <h2 class="head">code with me</h2>
+    <button class="stop">stop</button>
+
+
+    <script >
+
+        let head = document.querySelector(".head")
+        let butt = document.querySelector(".stop")
+
+        //mehthod 1
+
+        // let func = ()=>{
+        //     head.innerHTML = "code with chai aur code"
+        // }
+
+        // let set = setTimeout(func,3000)  // in this method we will pass the function and time
+
+        //method 2
+
+        let set = setTimeout(()=>{
+            head.innerHTML = "code with chai aur code"
+            head.style.color = "red"
+        },3000 )
+
+        butt.addEventListener("click",()=>{
+            clearTimeout(set)   // this will make sure that set timeout doesnt work
+        } )
+        
+    </script>
+</body>
+</html>
