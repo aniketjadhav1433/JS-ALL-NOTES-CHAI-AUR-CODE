@@ -70,3 +70,10 @@ let cart = shopping.reduce( (accu, curr)=>{
 
 console.log('the cart value is',cart);
 
+let ans = (...num)=>{
+    return num.reduce((acc, currVal)=>{
+      return acc + currVal
+    },0)
+}
+
+console.log('the answer is ',ans(33,3,3,3,33,1));
