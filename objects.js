@@ -67,6 +67,25 @@ console.log('last name in aniket is ',lname,); // in this we dint change the key
 
 
 
+// objects and prototype
+
+let obj = {
+    name : "aniket",
+    contact:4444,
+    status:"single",
+    check(){
+        console.log('this is check',);
+    }
+}
+
+let person = {
+    contact:888
+}
+
+person.__proto__= obj
+
+console.log('person name',person.name);
+
 
 
 
